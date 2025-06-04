@@ -3,6 +3,7 @@
 import os
 import sys
 
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "alx_travel_app_0x00.settings")
 
 def main():
     """Run administrative tasks."""
